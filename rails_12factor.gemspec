@@ -19,5 +19,4 @@ Gem::Specification.new do |gem|
   gem.add_development_dependency "minitest"
   gem.add_development_dependency "rake"
   gem.add_dependency "rails_serve_static_assets"
-  gem.add_dependency "rails_stdout_logging"
 end
