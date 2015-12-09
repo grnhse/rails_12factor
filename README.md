@@ -1,3 +1,7 @@
+# REASON FOR FORK
+
+The original gem includes the rails_stdout_logger gem which replaces `Rails.logger` with a new logger. However our application already configures a logger to go to STDOUT along with a specialized formatter.
+
 # Rails 12factor [![Build Status](https://travis-ci.org/heroku/rails_12factor.png)](https://travis-ci.org/heroku/rails_12factor)
 
 Makes running your Rails app easier. Based on the ideas behind [12factor.net](http://12factor.net)
